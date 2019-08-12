@@ -28,7 +28,10 @@ public class Application {
 
     // must have a main method spring-boot can run
     public static void main(String[] args) {
+    	Application app = new Application();
         SpringApplication.run(Application.class, args);
+        
+        
         System.out.print("hola");
         
     }
